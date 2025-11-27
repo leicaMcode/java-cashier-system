@@ -16,6 +16,10 @@ public class Product {
 		this.quantity = quantity;
 		this.price = price;
 	}
+	
+	public String toString() {
+		return this.getName() + "- Qty " + this.getQuantity() + " - US$ " + this.getPrice() ;
+	}
 
 	public String getName() {
 		return name;
